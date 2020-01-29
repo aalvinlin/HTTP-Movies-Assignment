@@ -5,6 +5,20 @@ body {
   background-color: #f2f2f2;
 }
 
+.movie-list {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.movie-list a {
+  display: block;
+  width: 22%;
+  min-width: 300px;
+}
+
 .movie-card {
   background-color: #fff;
   border: 0;
@@ -74,4 +88,13 @@ body {
 .movie-warning {
   color: red;
   text-align: center;
+}
+
+a {
+  color: #006633;
+  text-decoration: none;
+}
+
+a:hover, a:active {
+  color: #339966;
 }
