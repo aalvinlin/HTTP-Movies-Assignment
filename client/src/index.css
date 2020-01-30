@@ -101,6 +101,12 @@ body {
   background-color: lightcoral;
 }
 
+.add-button {
+  background-color: lightgoldenrodyellow;
+  width: 300px;
+  margin: 0 auto;
+}
+
 .home-button {
   padding: 5px 10px;
   background-color: lightskyblue;
@@ -124,7 +130,7 @@ h2 {
   margin-top: 0;
 }
 
-.updateMovieDiv {
+.updateMovieDiv, .addMovieDiv {
   display: flex;
   flex-direction: column;
   justify-content: center;
