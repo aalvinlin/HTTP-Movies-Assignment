@@ -123,3 +123,26 @@ a:hover, a:active {
 h2 {
   margin-top: 0;
 }
+
+.updateMovieDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+}
+
+label {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem;
+}
+
+input, button {
+  line-height: 2rem;
+  font-size: 1rem;
+  padding: 0 0.5rem;
+}
